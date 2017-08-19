@@ -65,7 +65,7 @@ function showPosition(position){
 	});
 
 	//google
-	var url = 'http://maps.google.cn/maps/api/geocode/json?latlng='+latlon+'&language=CN';
+	var url = 'http://maps.google.cn/maps/api/geocode/json?latlng='+latlon+'&language=CN&?sensor=true';
 	$.ajax({
 		type: "GET",
 		url: url,
